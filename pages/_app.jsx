@@ -1,8 +1,5 @@
-import { AppProps } from "next/dist/shared/lib/router/router";
-import { Router } from "next/router";
-import { ReactElement } from "react";
-
 import { Provider } from "react-redux";
+import { Layout } from "../widgets/layout";
 
 import { wrapper } from "../app/store";
 import "../src/globals.scss";
@@ -17,7 +14,11 @@ function MyApp({ Component, router, ...rest }) {
 
   const { pageProps } = props;
 
-  return <Provider store={store}>{<Component {...pageProps} />}</Provider>;
+  return (
+    <Provider store={store}>
+      <Layout>{<Component {...pageProps} />}</Layout>
+    </Provider>
+  );
 }
 
 export default MyApp;
