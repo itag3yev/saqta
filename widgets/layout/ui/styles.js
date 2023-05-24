@@ -1,6 +1,8 @@
 export const styles = {
   header: {
     display: "flex",
+    backgroundColor: "#2C5F2D",
+    color: "#E3B448",
     alignItems: "center",
     height: "80px",
     boxShadow: "0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)",
@@ -21,7 +23,7 @@ export const styles = {
     links: {
       display: "flex",
       listStyleType: "none",
-      gap: "12px",
+      gap: "16px",
       "[li:not(:last-child)]": {
         marginRight: "12px",
       },
@@ -32,7 +34,7 @@ export const styles = {
     justifyContent: "center",
     alignItems: "center",
     height: "80px",
-    backgroundColor: "#333",
-    color: "#fff",
+    backgroundColor: "#2C5F2D",
+    color: "#E3B448",
   },
 };

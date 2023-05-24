@@ -21,10 +21,10 @@ export const Header: FC = () => {
         <Box component='nav'>
           <Box component='ul' sx={styles.header.links}>
             <Box component='li'>
-              <Link href='about'>О Компании</Link>
+              <Link href='services'>Услуги</Link>
             </Box>
             <Box component='li'>
-              <Link href='services'>Услуги</Link>
+              <Link href='about'>О Компании</Link>
             </Box>
             <Box component='li'>
               <Link href='addresses'>Адреса и Контакты</Link>
