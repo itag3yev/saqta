@@ -26,6 +26,9 @@ export const Header: FC = () => {
                 <Box component='li'>
                   <Link href='about'>О Компании</Link>
                 </Box>
+                <Box component='li'>
+                  <Link href='login'>Войти</Link>
+                </Box>
               </Box>
             </Box>
           </Box>
