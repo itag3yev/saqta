@@ -5,7 +5,6 @@ import { features } from "./mock";
 import { styles } from "./styles";
 import Image from "next/image";
 
-
 export const StorageFeatures: FC = () => {
   return (
     <>
