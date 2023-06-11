@@ -6,7 +6,7 @@ import { styles } from "./styles";
 export const Footer: FC = () => {
   return (
     <Box component='footer' sx={styles.footer}>
-      <Typography>SAQTA {new Date().getFullYear()}</Typography>
+      <Typography>@ Copyright {new Date().getFullYear()} by SAQTA. All rights reserved.</Typography>
     </Box>
   );
 };

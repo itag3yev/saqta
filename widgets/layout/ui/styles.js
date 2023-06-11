@@ -1,15 +1,13 @@
 export const styles = {
-  header: {
-    display: "flex",
-    backgroundColor: "#2C5F2D",
-    color: "#E3B448",
-    alignItems: "center",
-    height: "80px",
-    boxShadow: "0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)",
+  container: {
+    position: "relative",
+    backgroundColor: "#232323",
+    color: "white",
 
-    logo: {
-      display: "flex",
-      alignItems: "center",
+    menu: {
+      maxWidth: '1170px',
+      margin: '0 auto',
+      padding: "24px",
     },
 
     content: {
@@ -23,10 +21,13 @@ export const styles = {
     links: {
       display: "flex",
       listStyleType: "none",
-      gap: "16px",
-      "[li:not(:last-child)]": {
-        marginRight: "12px",
-      },
+      gap: "24px",
+
+      li: {
+        fontSize: "16px",
+        // textTransform: "uppercase",
+        fontWeight: 600,
+      }
     },
   },
   footer: {
@@ -34,7 +35,7 @@ export const styles = {
     justifyContent: "center",
     alignItems: "center",
     height: "80px",
-    backgroundColor: "#2C5F2D",
+    backgroundColor: "#232323",
     color: "#E3B448",
   },
 };

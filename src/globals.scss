@@ -28,8 +28,28 @@ a {
 }
 
 .block {
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 70px 0px;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 70px 0px;
+}
+
+.banner {
+  position: absolute;
+  width: -moz-available;
+  width: -webkit-fill-available; 
+  width: fill-available;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  scale: 4;
+}
+
+.banner-image {
+  width: 100%;
+  height: calc(100vh - 90px);
+  object-fit: cover;
+  filter: brightness(0.7)
 }

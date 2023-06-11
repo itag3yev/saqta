@@ -1,13 +1,14 @@
 import { FC } from "react";
 
-import { Advantages, Services, Calculator } from "./ui";
+import { Advantages, Services, Calculator, Banner } from "./ui";
 
 const Home: FC = () => {
   return (
     <>
-      <Advantages />
+      <Banner />
       <Services />
-      <Calculator />
+      <Advantages />
+      {/* <Calculator /> */}
     </>
   );
 };
